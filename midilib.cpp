@@ -43,7 +43,7 @@ namespace MIDILib{
 				listener->noteOn(note, data, index);
 				break;
 			case NoteOff:
-				if(index < 2){
+				if(index < 3){
 					return;
 				}
 				note.channel = subType;
